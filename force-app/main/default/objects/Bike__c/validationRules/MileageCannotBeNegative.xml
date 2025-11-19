@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>MileagecannotBeNegative</fullName>
+<active>true</active>
+<description>Mileage must be zero or more</description>
+<errorConditionFormula>Mileage__c &lt;=0 </errorConditionFormula>
+<errorMessage>Mileage cannot be nagitive</errorMessage>
+<errorDisplayField>Mileage__c</errorDisplayField>
+</ValidationRule>
